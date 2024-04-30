@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+.body{
+    margin: 0px;
+    font-family: 'paybooc-Bold';
+}
+.heder{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex ;
+    flex: end;
+}
+
+.menu{
+    padding-left: 30px;
+    
+}
+
+.gg-menu{
+    cursor: pointer;
+    color: white;
+    
+}
+
+.img1{
+    height: 70px;
+    width: 146.53px;
+    float: center;
+}
+
+.logo1{
+    padding-left: 850px;
+    
+}
+
+.login{
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    display: right; 
+    flex: end;
+}
+
+.circulito
