@@ -1,3 +1,5 @@
+
+
 *{
     box-sizing: border-box;
 }
@@ -71,14 +73,47 @@
 
 .contenidohederpc{
     vertical-align: baseline;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     line-height: 60px;
-    ;
+    width: 100%;
+    padding-right: 450px;
+    padding-left: 450px;
+    
+    
 }
 
 .container1{
     height: 180px;
     width: 100%;
     background-color: rgb(34, 32, 32);
+
+    
+}
+
+.containerguia{
+    padding: 0 25px;
+    width: 100%;
+    height: 138px;
+    
+}
+
+.granboton{
+    width: 330px;
+    height: 330px;
+    background: url(https://digimonrpg-na.kinxzone.com/digimonrpg-na/NorthAmerica/WEB/image/us/common/index3/onMouseIn.png);
+    cursor: pointer;
+    background-position: 0px 0px;
+    
+}
+
+.movedor{
+    display: flex;
+    
+    justify-content: center;
+}
+
+.listas{
+    list-style-type: none;
+    
 }
