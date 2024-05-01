@@ -9,41 +9,76 @@
 .heder{
     height: 80px;
     width: 100%;
-    background-color: black;
-    justify-content: center;
+    background-color: rgb(36, 34, 34);
+    justify-content: space-between;
+    display: flex;
     align-items: center;
-    display: flex ;
-    flex: end;
+    font-family: 'paybooc-Bold';
 }
 
 .menu{
     padding-left: 30px;
-    
 }
 
 .gg-menu{
     cursor: pointer;
     color: white;
+    justify-content: flex-start;
     
 }
 
 .img1{
     height: 70px;
     width: 146.53px;
-    float: center;
 }
 
 .logo1{
-    padding-left: 850px;
-    
+    justify-content: center
 }
 
 .login{
-    color: #fff;
-    text-decoration: none;
-    position: absolute;
-    display: right; 
-    flex: end;
+    width: 240px;
+    color: white;
 }
 
-.circulito
+.sublogin{
+    color: white;
+}
+
+.a{
+    color: white;
+}
+
+.separacion1{
+    width: 1000px;
+}
+
+.separacion2{
+    width: 750px;
+}
+
+.circulito{
+    color: white;
+    height: 10px;
+    width: 10px;
+}
+
+.hederpc{
+    background-color: rgb(56, 55, 55);
+    height: 60px;
+    width: 100%;
+}
+
+.contenidohederpc{
+    vertical-align: baseline;
+    justify-content: center;
+    display: flex;
+    line-height: 60px;
+    ;
+}
+
+.container1{
+    height: 180px;
+    width: 100%;
+    background-color: rgb(34, 32, 32);
+}
